@@ -1,0 +1,20 @@
+name: TPAPlugin
+version: 1.0
+main: br.com.boazhector.Main
+api-version: 1.21.4
+description: Plugin de teleporte entre jogadores (TPA)
+author: Hector_Boaz
+
+commands:
+  tpa:
+    description: Envia um pedido de teleporte para outro jogador
+    usage: /tpa <jogador>
+    aliases: []
+  tpaccept:
+    description: Aceita um pedido de teleporte
+    usage: /tpaccept
+    aliases: [tpaaccept]
+  tpdeny:
+    description: Nega um pedido de teleporte
+    usage: /tpdeny
+    aliases: []

@@ -1,0 +1,27 @@
+# Configuração do plugin TPAPlugin
+
+# Tempo de cooldown entre pedidos de TPA (em segundos)
+cooldown: 60
+
+# Tempo de espera para teleporte (em segundos)
+teleport-delay: 5
+
+# Mensagens do plugin
+messages:
+  prefix: "&8[&aTPA&8] &r"
+  request-sent: "&aPedido de teleporte enviado!"
+  request-received: "&e%player% &aquer teletransportar para você!"
+  no-requests: "&cVocê não tem pedidos de tpa no momento."
+  request-accepted: "&aVocê aceitou o pedido de teleporte! &eAguarde %time% segundos sem se mover..."
+  teleport-accepted: "&a%player% aceitou seu pedido de teleporte! &eAguardando %time% segundos, não se mova..."
+  teleport-success: "&aTeleporte realizado com sucesso!"
+  teleported-success: "&aVocê foi teleportado para %player%!"
+  request-denied: "&cPedido de teleporte negado."
+  denied-request: "&c%player% negou seu pedido de teleporte."
+  player-moved: "&cVocê se moveu! Teleporte cancelado."
+  target-moved: "&c%player% se moveu! Teleporte cancelado."
+  player-offline: "&cO jogador que solicitou o TPA saiu do servidor. Teleporte cancelado."
+  self-teleport: "&cVocê não pode mandar tpa para si mesmo..."
+  cooldown-active: "&cEspere um pouco antes de tentar novamente &4Cooldown %time%s."
+  player-not-found: "&cJogador não encontrado ou offline."
+  console-error: "&cEste comando só pode ser executado por jogadores."
